@@ -1,0 +1,16 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css.css" type="text/css">
+</head>
+<body>
+<?php
+   session_start();
+   session_destroy();
+?>
+
+<div align="center">
+  <h2>Anda telah berhasil logout..</h2>
+  Silahkan klik <a href="login.php">disini</a> untuk login kembali
+</div>
+</body>
+</html>
